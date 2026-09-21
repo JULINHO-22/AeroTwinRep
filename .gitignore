@@ -1,0 +1,33 @@
+# Python
+backend/.venv/
+backend/.env
+backend/uploads/
+**/__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Android / Gradle
+android/.gradle/
+android/local.properties
+android/**/build/
+android/captures/
+*.apk
+*.aab
+
+# IDE
+.idea/
+*.iml
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Generated deliverables are reproducible from the versioned QR/PDF scripts.
+# Keep the public repository to source, tests and documentation.
+/backend/tmp/
+/output/
+/aerotwin-demo-rack-pallet-pairs.pdf
+/artifacts/

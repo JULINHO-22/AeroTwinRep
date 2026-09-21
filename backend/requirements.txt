@@ -1,0 +1,13 @@
+alembic==1.20.0
+fastapi==0.141.1
+httpx==0.28.1
+pwdlib[argon2]==0.3.1
+psycopg[binary]==3.3.6
+pillow==11.3.0
+pydantic-settings==2.15.0
+python-multipart==0.0.20
+qrcode[pil]==8.2
+PyJWT==2.14.0
+pytest==8.4.2
+SQLAlchemy==2.0.54
+uvicorn[standard]==0.53.0

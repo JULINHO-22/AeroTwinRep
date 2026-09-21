@@ -1,0 +1,29 @@
+{
+  "rescan_quality_threshold": 85,
+  "max_reading_attempts": 2,
+  "expiry_warning_days": 90,
+  "expiry_risk_days": 30,
+  "low_coverage_days": 7,
+  "rotation_window_days": 30,
+  "rotation_thresholds": {
+    "high_min": 300,
+    "medium_min": 100
+  },
+  "historical_anomaly_min_count": 2,
+  "severity_thresholds": {
+    "critical_min": 80,
+    "high_min": 60,
+    "medium_min": 40
+  },
+  "risk_weights": {
+    "PALLET_MISMATCH": 35,
+    "EXPECTED_PALLET_MISSING": 40,
+    "UNEXPECTED_PALLET": 35,
+    "EXPIRING_SOON": 20,
+    "HIGH_ROTATION": 15,
+    "LOW_COVERAGE": 25,
+    "LOW_QUALITY": 10,
+    "FEFO_RISK": 10,
+    "HISTORICAL_ANOMALY": 10
+  }
+}
